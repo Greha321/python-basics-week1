@@ -1,0 +1,5 @@
+file = open("data.txt", "w")
+file.write("Hello, this is my first file\n")
+file.write("Writing to files is easy!\n")
+file.close()
+print("File written successfully.")
